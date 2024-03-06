@@ -1,0 +1,135 @@
+.payment {
+  height: 521px;
+  width: 600px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 312px;
+  left: 420px;
+  border-radius: 14px;
+  z-index: 11;
+  opacity: 1;
+  font-family: "Cabin", sans-serif;
+}
+.payment-content {
+  padding: 38px 92px 34px 89px;
+}
+.payment-success-logo {
+  display: flex;
+  justify-content: space-around;
+}
+.payment-successful-message {
+  display: flex;
+  justify-content: space-around;
+  font-size: 36px;
+  line-height: 43.7px;
+  font-weight: 400;
+  color: #36c490;
+  margin-top: 23px;
+}
+.payment-order {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.payment-data {
+  margin-top: 17px;
+}
+.payment-each-data {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-each-data-head {
+  font-size: 14px;
+  line-height: 20px;
+  color: #00000080;
+  font-weight: 400;
+}
+.payment-each-data-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #4c4d4f;
+  font-weight: 400;
+}
+
+.payment-amount {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.payment-amount p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.payment-transaction {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.payment-transaction p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.payment-points {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+.points-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.points-button p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.points-button img {
+  height: 20px;
+  width: 20px;
+}
+.payment-buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.payment-buttons{
+    display: flex;
+    gap: 14px;
+}
+.mail-button{
+    display: flex;
+    gap: 8px;
+    padding: 8px 28px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.mail-button p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.reward-button{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 8px 15px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:835px) {
+  .payment{
+    top: 435px;
+    left: 115px;
+  }
+}

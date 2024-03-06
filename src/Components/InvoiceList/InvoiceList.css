@@ -1,0 +1,199 @@
+.invoicelist {
+  background-color: #ffffff;
+  font-family: "Cabin", sans-serif;
+  border-radius: 12px;
+}
+.invoice-card{
+  margin: 20px 28px 0px 28px;
+}
+.payment-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.line-path {
+  width: 135px;
+  border: 1px solid #4c4d4f33;
+}
+
+.payment-method {
+  margin-top: 26px;
+}
+.payment-method p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+}
+.payment-checkbox {
+  margin-top: 16px;
+  display: flex;
+  gap: 28px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  margin-right: 11px;
+}
+input[type="checkbox"]:checked + .checkbox {
+  background-color: #000000;
+}
+
+.credit-checkbox {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.payment-details {
+  margin-top: 26px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #4c4d4f;
+  display: flex;
+}
+
+.payment-form {
+  margin-top: 16px;
+  display: flex;
+  gap: 21px;
+}
+.payment-form2 {
+  margin-top: 19px;
+  display: flex;
+  gap: 21px;
+}
+.form-name p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #00000080;
+  display: flex;
+}
+.payment-inputform {
+  height: 43px;
+  width: 319px;
+  border-radius: 7px;
+  border: 0.5px solid #4c4d4f;
+  margin-top: 4px;
+}
+.payment-inputform span {
+  display: flex;
+  justify-content: flex-end;
+  margin: 11px 14px 12px 0;
+}
+
+.savedcard-radiobtn {
+  position: relative;
+  bottom: 5px;
+  height: 20px;
+  width: 20px;
+  accent-color: #000000;
+  margin-right: 12px;
+}
+.savedcard-radiobtn-master {
+  position: relative;
+  bottom: 20px;
+  height: 20px;
+  width: 20px;
+  accent-color: #000000;
+  margin-right: 12px;
+}
+.savedcard-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 11px;
+}
+.savedcard-details p {
+  font-size: 20px;
+  line-height: 24.3px;
+  font-weight: 400;
+  color: #000000;
+}
+.savedcard-details span {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #4c4d4f;
+  display: flex;
+  justify-content: end;
+}
+.saved-card1 {
+  width: auto;
+  height: 100px;
+  border: 0.5px solid #4c4d4f80;
+  margin-top: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+}
+.addnewcard-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+.addnewcard-btn button {
+  height: 48px;
+  width: 184px;
+  border-radius: 24px;
+  border: 1px solid #4c4d4f;
+  background-color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
+.payemnt-footer {
+  display: flex;
+  margin-top: 38px;
+}
+
+.payemnt-footer p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.payemnt-footer span {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-button {
+  display: flex;
+  margin-top: 16px;
+  gap: 15px;
+}
+.save-button {
+  height: 48px;
+  width: 184px;
+  border-radius: 24px;
+  border: 1px solid #4c4d4f;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Cabin", sans-serif;
+}
+.confirm-payment-button {
+  height: 48px;
+  width: 184px;
+  border-radius: 24px;
+  border: 1px solid #4c4d4f;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
